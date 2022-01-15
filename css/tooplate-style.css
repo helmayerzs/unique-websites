@@ -67,7 +67,7 @@ font {
   }
 
   a:hover, a:active, a:focus {
-    color: #43e05d;
+    color: #ec732e;
     outline: none;
   }
 
@@ -130,7 +130,7 @@ font {
   }
 
 	.online-form button {
-		background: #43e05d;
+		background: #ec732e;
 		border: 0;
 		color: #ffffff;
 		/*position: absolute;*/
@@ -150,7 +150,7 @@ font {
   -----------------------------------------*/
 
   .section-btn {
-    background: #43e05d;
+    background: #ec732e;
     border: 0;
     border-radius: 50px;
     color: #ffffff;
@@ -251,20 +251,20 @@ font {
     padding-left: 22px;
   }
 
-  .custom-navbar .nav li a:hover {
-    background: transparent;
-    color: #43e05d;
-  }
+    .custom-navbar .nav li a:hover {
+        background: transparent;
+        color: #ec732e;
+    }
 
   .custom-navbar .navbar-nav > li > a:hover,
   .custom-navbar .navbar-nav > li > a:focus {
     background-color: transparent;
   }
 
-  .custom-navbar .nav li.active > a {
+.custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #43e05d;
-  }
+    color: #ec732e;
+}
 
   .custom-navbar .navbar-toggle {
     border: none;
@@ -275,10 +275,10 @@ font {
     background-color: transparent;
   }
 
-  .custom-navbar .navbar-toggle .icon-bar {
-    background: #43e05d;
-    border-color: transparent;
-  }
+    .custom-navbar .navbar-toggle .icon-bar {
+        background: #ec732e;
+        border-color: transparent;
+    }
 
   @media(min-width:768px) {
     .custom-navbar {
@@ -332,13 +332,15 @@ font {
     text-align: center;
   }
 
-.no-webp .home-banner-background {
+.home-banner-background {
     background: url('../images/banner2.jpg') no-repeat center center;
 }
 
+/*
 .webp .home-banner-background {
     background: url('../images/banner2.webp') no-repeat center center;
 }
+    */
 
   #home h1 {
     color: #ffffff;
@@ -404,13 +406,13 @@ font {
   #book .nav-tabs>li.active>a:hover {
     background: transparent;
     color: #202020;
-    border-bottom: 3px solid #43e05d;
+    border-bottom: 3px solid #ec732e;
   }
 
   #book .nav>li>a:focus, 
   #book .nav>li>a:hover {
     background: transparent;
-    border-bottom: 3px solid #43e05d;
+    border-bottom: 3px solid #ec732e;
     color: #202020;
   }
 
@@ -725,7 +727,7 @@ font {
 }
 
 	.bookBtn {
-		background-color: #43e05d;
+		background-color: #ec732e;
 		border: 0;
 		color: white;
 		border-radius: 25px;
@@ -736,7 +738,7 @@ font {
 	}
 
 	.order-book {
-		background-color: #43e05d;
+		background-color: #ec732e;
 		border: 0;
 		color: white;
 		border-radius: 25px;
@@ -887,14 +889,35 @@ font {
 
   }
 
+.usefullLink {
+    width: calc(33% - 6px);
+    overflow: hidden;
+    height: 150px;
+    line-height: 150px;
+    margin: 3px;
+    padding: 0;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: white;
+}
+
+.usefullLinkImg {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 10px;
+    width: 150px
+}
+
 .green-pipe {
     font-size: 24px;
-    color: #43e05d;
+    color: #ec732e;
 }
 
 .contact-icons {
     font-size: 60px;
-    color: #43e05d;
+    color: #ec732e;
 }
 
 div#quad {
@@ -968,22 +991,22 @@ div.full figure:not(.expanded) {
 }
 
 .linkbutton {
-	background-color: #43e05d;
-	color: white;
-	padding: 1em 1.5em;
-	text-decoration: none;
-	border-radius: 30pt;
-}
-
-.linkbutton:hover {
-    background-color: #43e05d;
-    color: black;
+    background-color: #ec732e;
+    color: white;
     padding: 1em 1.5em;
     text-decoration: none;
     border-radius: 30pt;
 }
 
+    .linkbutton:hover {
+        background-color: #ec732e;
+        color: black;
+        padding: 1em 1.5em;
+        text-decoration: none;
+        border-radius: 30pt;
+    }
+
 #interest:hover {
-    background-color: #43e05d;
+    background-color: #ec732e;
     color: black;
 }
